@@ -4,11 +4,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.kinsta.helloworld</groupId>
-  <artifactId>kinsta-java-hello-world</artifactId>
+  <groupId>org.architectedfutures.helloworld</groupId>
+  <artifactId>eatsv5-java-hello-world</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>kinsta-java-hello-world</name>
+  <name>eatsv5-java-hello-world</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -56,7 +56,7 @@
               <manifest>
                 <addClasspath>true</addClasspath>
                 <classpathPrefix>lib/</classpathPrefix>
-                <mainClass>com.kinsta.helloworld.App</mainClass>
+                <mainClass>org.architectedfutures.helloworld.App</mainClass>
               </manifest>
             </archive>
           </configuration>

@@ -1,4 +1,4 @@
-package com.kinsta.helloworld;
+package org.architectedfutures.helloworld;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -24,7 +24,7 @@ public class App {
     static class MyHandler implements HttpHandler {
         @Override
         public void handle(HttpExchange t) throws IOException {
-            String response = "Hello World";
+            String response = "Hello World from EATSv5";
             t.sendResponseHeaders(200, response.length());
             OutputStream os = t.getResponseBody();
             os.write(response.getBytes());

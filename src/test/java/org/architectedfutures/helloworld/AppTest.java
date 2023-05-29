@@ -1,4 +1,4 @@
-package com.kinsta.helloworld;
+package org.architectedfutures.helloworld;
 
 import static org.junit.Assert.assertTrue;
 
