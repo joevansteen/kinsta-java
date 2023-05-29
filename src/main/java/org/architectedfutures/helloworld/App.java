@@ -26,7 +26,8 @@ public class App {
     static class MyHandler implements HttpHandler {
         @Override
         public void handle(HttpExchange t) throws IOException {
-            String response = "Hello World from EATSv5 ";
+            String key = Optional.ofNullable(System.getenv("EATSv5_KEY")).orElse("missing");
+            String response = "Hello World from EATSv5 " + key + " ";
             
             // Determine the request method
             String method = t.getRequestMethod();
